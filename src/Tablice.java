@@ -20,7 +20,7 @@ public class Tablice {
 
         System.out.println(lottoNumbers.length);
         for (int i=0; i<imiona.length;i++) {
-            System.out.println(imiona[i]);
+            System.out.println(imiona[3]);
         }
 
     }
