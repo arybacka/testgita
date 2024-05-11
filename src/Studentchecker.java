@@ -30,7 +30,7 @@ public class Studentchecker {
         Studenci[1] = Student2;
         Studenci[2] = Student3;
 
-        for (int i=0; i<Studenci.length; i++) { //lub i<3 - wywoluje  wszystkich studentow
+        for (int i=0; i<Studenci.length; i++) { //lub i<3 - wywoluje  wszystkich studentow, i=0 bo zaczynam od 0 liczyc
             System.out.println(i);
             System.out.println(Studenci[i]);
 
@@ -39,7 +39,6 @@ public class Studentchecker {
             Studenci[i].podajEmail();
             Studenci[i].podajNrIndeksu();
         }
-
 
 
     }
