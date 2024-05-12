@@ -3,12 +3,17 @@ package src;
 public class Studentchecker {
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
         Student Student1 = new Student();
         Student1.imie = "Ania";
         Student1.nazwisko = "Rybacka";
         Student1.nick = "angie";
         Student1.email = "angie@ais.pl";
         Student1.numerIndeksu = 8;
+        String uczelniaAni = Student1.nazwaUczelni;
+        Student1.infoUczelnia();
 
         Student Student2 = new Student();
         Student2.imie = "Wiktoria";
