@@ -1,7 +1,7 @@
 package src;
 
 public class Metody {
-    //public void nazwaDrugiwyrazzduzejliteryTrzecitez ()
+    //public void nazwaDrugiwyrazzduzejliteryTrzecitez () {}
 
     public void policzWynik() {
         System.out.println("Zaraz policze wynik");

@@ -10,6 +10,9 @@ public class MathTeacher extends Person {
         this.school=school;
     }
 
+    public void walk() {
+        System.out.println("I walk very fast");
+    }
     public void teachMath() {
 
         System.out.println("I'm teaching math!");
