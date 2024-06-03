@@ -11,6 +11,7 @@ public class MathTeacher extends Person {
     }
 
     public void walk() {
+        super.walk(); // zostanie wywolana metoda z klasy person, czyli nadrzednej
         System.out.println("I walk very fast");
     }
     public void teachMath() {
