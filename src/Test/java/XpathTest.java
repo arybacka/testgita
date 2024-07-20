@@ -130,7 +130,6 @@ public class XpathTest {
         driver.findElement(andOp);
         driver.findElement(orOp);
 
-        //
-        /html/body/button[1]
+
     }
 }
