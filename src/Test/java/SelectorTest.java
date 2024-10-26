@@ -46,6 +46,6 @@ public class SelectorTest {
         By partialLink = By.partialLinkText("Visit");
         WebElement schoolPartial = driver.findElement(partialLink);
 
-        //
+
     }
 }
